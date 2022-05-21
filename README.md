@@ -8,7 +8,7 @@ This is a frontend web application based on OpenAI's [Create Completion API] (ht
 React | CSS | Axios with OpenAI
 
 ### How to Run
-View the deployed app [here](link)
+View the deployed app [here](https://elubkert-shopify-frontend.herokuapp.com/)
 
 #### To Run Locally:
 - Fork this repo
