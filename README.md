@@ -2,7 +2,7 @@
 ## Shopify Frontend Developer Intern Challenge 2022
 
 ### Description
-This is a frontend web application based on OpenAI's [Create Completion API] (https://beta.openai.com/docs/api-reference/completions). Users can input a type of weather (e.g., sunny, rainy, snowy, etc.) and upon submit, the API will return 3 activity suggestions appropriate for the weather. API responses persist with page refresh through local storage. 
+This is a frontend web application based on OpenAI's [Create Completion API](https://beta.openai.com/docs/api-reference/completions). Users can input a type of weather (e.g., sunny, rainy, snowy, etc.) and upon submit, the API will return 3 activity suggestions appropriate for the weather. API responses persist with page refresh through local storage. 
 
 ### Tech 
 React | CSS | Axios with OpenAI
