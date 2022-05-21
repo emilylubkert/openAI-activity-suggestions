@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = process.env.REACT_APP_OPENAI_URL;
+const baseURL = 'https://api.openai.com/v1/engines/text-curie-001'
 
 const service = axios.create({
   baseURL,
