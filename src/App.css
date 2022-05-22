@@ -33,7 +33,7 @@
 }
 
 input[type=text] {
-  width: 40%;
+  width: fit-content;
   padding: 12px 20px;
   /* margin: 8px 0; */
   box-sizing: border-box;
@@ -41,7 +41,7 @@ input[type=text] {
 }
 
 input[type=submit] {
-  width: 30%;
+  width: fit-content;
   margin: 20px;
   background-color: #008060;
   color: white;
@@ -70,4 +70,8 @@ form {
 body {
   background-color: #fbf7ed;
   font-family: 'Noto Sans', sans-serif;
+}
+
+.clear-response {
+  width: fit-content;
 }

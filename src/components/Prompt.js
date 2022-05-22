@@ -56,7 +56,7 @@ function Prompt() {
       <div className='response-container'>
         {responses ? <Responses responses={responses} /> : null}
       </div>
-      <button onClick={clearResponses}>Clear Responses</button>
+      <button classname="clear-response" onClick={clearResponses}>Clear Responses</button>
     </>
   );
 }
