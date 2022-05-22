@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Responses from './Responses';
 import openAiAPI from './api';
 import generatePrompt from './GeneratePrompt/'
-import saveResponse from '../SaveResponse';
+import saveResponse from './SaveResponse';
 
 function Prompt() {
   const [input, setInput] = useState('');
