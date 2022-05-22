@@ -1,16 +1,10 @@
+body {
+  background-color: #fbf7ed;
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -18,35 +12,8 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-input[type=text] {
-  width: fit-content;
-  padding: 12px 20px;
-  /* margin: 8px 0; */
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-
-input[type=submit] {
-  width: fit-content;
+.page-title {
   margin: 20px;
-  background-color: #008060;
-  color: white;
-  border-radius: 4px;
-  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
 }
 
 form {
@@ -55,10 +22,22 @@ form {
   align-items: center;
 }
 
+input[type=text] {
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #008060;
+  color: white;
+}
+
 .response-card {
   width: 80%;
   padding: 12px 12px;
-  margin-bottom: 8px;
+  margin: 8px;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
 }
 
 .response-container {
@@ -67,11 +46,11 @@ form {
   align-items: center;
 }
 
-body {
-  background-color: #fbf7ed;
-  font-family: 'Noto Sans', sans-serif;
-}
-
-.clear-response {
+.clear-response,
+input[type=submit],
+input[type=text] {
+  margin: 12px;
   width: fit-content;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
 }

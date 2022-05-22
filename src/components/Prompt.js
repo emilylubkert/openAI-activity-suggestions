@@ -42,12 +42,12 @@ function Prompt() {
 
   return (
     <>
-      <h3>Enter prompt</h3>
+      <h3 className='page-title'>What is the weather?</h3>
       <form onSubmit={onSubmit}>
         <input
           type='text'
           name='word'
-          placeholder='What is the weather?'
+          placeholder='hot, rainy, stormy, etc.'
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
@@ -56,7 +56,7 @@ function Prompt() {
       <div className='response-container'>
         {responses ? <Responses responses={responses} /> : null}
       </div>
-      <button classname="clear-response" onClick={clearResponses}>Clear Responses</button>
+      <button className="clear-response" onClick={clearResponses}>Clear Responses</button>
     </>
   );
 }
